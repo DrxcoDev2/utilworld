@@ -31,6 +31,7 @@ export default function RootLayout({
           href="https://db.onlinewebfonts.com/c/a7600f3ef906b725df694b7e08952f06?family=Pricedown+V2"
           rel="stylesheet"
         />
+        <script src="https://fpyf8.com/88/tag.min.js" data-zone="183951" async data-cfasync="false"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
