@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import ServiceWorkerRegistrar from '@/components/ServiceWorkerRegistrar';
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -32,6 +33,15 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <script src="https://fpyf8.com/88/tag.min.js" data-zone="183951" async data-cfasync="false"></script>
+         <Script
+          id="moneytag-vignette"
+          strategy="afterInteractive"
+        >
+          {`(function(s){
+              s.dataset.zone='10164470';
+              s.src='https://groleegni.net/vignette.min.js';
+          })([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
+        </Script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
