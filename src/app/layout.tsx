@@ -60,6 +60,21 @@ export default function RootLayout({
               s.src='https://groleegni.net/vignette.min.js';
           })([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
         </Script>
+        <Script id="moneytag-inline" strategy="afterInteractive">
+          {`
+            (function(s){
+              s.dataset.zone = '10164908';
+              s.src = 'https://al5sm.com/tag.min.js';
+            })(
+              [document.documentElement, document.body]
+                .filter(Boolean)
+                .pop()
+                .appendChild(document.createElement('script'))
+            );
+            `}
+        </Script>
+
+
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
