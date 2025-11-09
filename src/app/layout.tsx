@@ -27,23 +27,31 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        {/* Twitter */}
-        <meta property="twitter:image" content="The final countdown GTA VI realese"></meta>
-        <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="twitter:title" content="The final countdown GTA VI realese"></meta>
-        <meta property="twitter:description" content="See how long it will take for GTA VI to be released with news and more"></meta>
-        {/* Default */}
-        <meta property="og:image" content="The final countdown GTA VI realese"></meta>
-        <meta property="og:site_name" content="GTA VI countdown"></meta>
-        <meta property="og:title" content="GTA VI countdown"></meta>
-        <meta property="og:url" content="utilworld.vercel.app"></meta>
+        {/* Primary SEO */}
+        <meta name="description" content="Countdown to the official release of GTA VI. Live timer, news, leaks and updates about Grand Theft Auto VI." />
+        <link rel="canonical" href="https://utilworld.vercel.app" />
+
+        {/* Open Graph (Facebook, Discord, WhatsApp) */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="GTA VI Countdown" />
+        <meta property="og:title" content="GTA VI Countdown – The Final Countdown" />
+        <meta property="og:description" content="See exactly how long remains until the release of Grand Theft Auto VI, including news and updates." />
+        <meta property="og:url" content="https://utilworld.vercel.app" />
+        <meta property="og:image" content="https://utilworld.vercel.app/preview.jpg" />
+
+        {/* Twitter (X) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GTA VI Countdown – The Final Countdown" />
+        <meta name="twitter:description" content="Track the remaining time until the official GTA VI release date." />
+        <meta name="twitter:image" content="https://utilworld.vercel.app/preview.jpg" />
+
         {/* Fuente Pricedown vía CDN */}
         <link
           href="https://db.onlinewebfonts.com/c/a7600f3ef906b725df694b7e08952f06?family=Pricedown+V2"
           rel="stylesheet"
         />
         <script src="https://fpyf8.com/88/tag.min.js" data-zone="183951" async data-cfasync="false"></script>
-         <Script
+        <Script
           id="moneytag-vignette"
           strategy="afterInteractive"
         >
