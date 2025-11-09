@@ -59,9 +59,9 @@ export function BackgroundLinesDemo() {
         Sanjana Airlines, <br /> Sajana Textiles.
       </h2> */}
             <div className="relative">
-                <h1 className="gta text-9xl mb-10 relative z-10">GTA VI</h1>
-                <h1 className="gta text-9xl mb-10 absolute inset-0 blur-2xl z-0">
-                    GTA VI
+                <h1 className="gta text-6xl text-center mb-10 relative z-10 lg:text-9xl">GTA VI CountDown</h1>
+                <h1 className="gta text-6xl mb-10 text-center absolute inset-0 blur-2xl z-0 lg:text-9xl">
+                    GTA VI CountDown
                 </h1>
             </div>
 
@@ -71,9 +71,9 @@ export function BackgroundLinesDemo() {
                     <span className="text-9xl">{timeleft.days}D</span> <span className="text-9xl">{timeleft.hours}h</span> <span className="text-9xl">{timeleft.minutes}m</span> <span className="text-9xl">{timeleft.seconds}S</span>
                 </h2>
             </div>
-            <div className="mt-[5rem]">
+            <div className="mt-[5rem] ">
                 <div className="justify-center flex cursor-pointer">
-                    <Button variant="outline" size="lg" className="max-w-2xl px-10">
+                    <Button variant="outline" size="lg" className="max-w-2xl px-10 mb-[5rem]">
                         <a href="https://t.me/+OB1g-euNf_k0NmYy" target="__blank">See Requeriments</a>
                     </Button>
                 </div>
